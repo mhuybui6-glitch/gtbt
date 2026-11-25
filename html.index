@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu bản thân</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #eaf3ff;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px #aaa;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2673c9;
+        }
+
+        h2 {
+            color: #2673c9;
+            border-bottom: 2px solid #2673c9;
+            padding-bottom: 8px;
+        }
+
+        .info {
+            line-height: 2;
+            font-size: 17px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background: #2673c9;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background: #eaf3ff;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 25px;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>GIỚI THIỆU BẢN THÂN</h1>
+
+    <h2>1. Thông tin cá nhân</h2>
+
+    <div class="info">
+        <p><b>Họ và tên:</b> Nguyễn Văn A</p>
+        <p><b>Ngày sinh:</b> 01/01/2008</p>
+        <p><b>Quê quán:</b> Phú Thọ</p>
+        <p><b>Trường:</b> Trường THPT ...</p>
+        <p><b>Lớp:</b> 12A1</p>
+        <p><b>Sở thích:</b> Nghe nhạc, đọc sách, chơi thể thao</p>
+        <p><b>Ước mơ:</b> Trở thành một lập trình viên</p>
+    </div>
+
+    <h2>2. Giới thiệu về bản thân</h2>
+
+    <p>
+        Xin chào mọi người! Mình tên là Nguyễn Văn A.
+        Mình là một người vui vẻ, hòa đồng và thích học hỏi
+        những điều mới. Trong thời gian rảnh, mình thường
+        nghe nhạc, đọc sách và tham gia các hoạt động thể thao.
+        Mình luôn cố gắng học tập để đạt được ước mơ của mình.
+    </p>
+
+    <h2>3. Thời gian biểu hằng ngày</h2>
+
+    <table>
+        <tr>
+            <th>Thời gian</th>
+            <th>Công việc</th>
+        </tr>
+
+        <tr>
+            <td>5:30 - 6:00</td>
+            <td>Thức dậy, vệ sinh cá nhân</td>
+        </tr>
+
+        <tr>
+            <td>6:00 - 6:30</td>
+            <td>Ăn sáng</td>
+        </tr>
+
+        <tr>
+            <td>7:00 - 11:30</td>
+            <td>Học ở trường</td>
+        </tr>
+
+        <tr>
+            <td>11:30 - 13:30</td>
+            <td>Ăn trưa và nghỉ ngơi</td>
+        </tr>
+
+        <tr>
+            <td>13:30 - 16:30</td>
+            <td>Học tập và làm bài tập</td>
+        </tr>
+
+        <tr>
+            <td>16:30 - 17:30</td>
+            <td>Chơi thể thao, thư giãn</td>
+        </tr>
+
+        <tr>
+            <td>18:00 - 19:00</td>
+            <td>Ăn tối cùng gia đình</td>
+        </tr>
+
+        <tr>
+            <td>19:00 - 21:30</td>
+            <td>Ôn bài và học bài mới</td>
+        </tr>
+
+        <tr>
+            <td>21:30 - 22:00</td>
+            <td>Thư giãn và đi ngủ</td>
+        </tr>
+    </table>
+
+    <div class="footer">
+        <p>© 2026 - Trang web giới thiệu bản thân của tôi</p>
+        <p>Cảm ơn mọi người đã ghé thăm!</p>
+    </div>
+
+</div>
+
+</body>
+</html>
